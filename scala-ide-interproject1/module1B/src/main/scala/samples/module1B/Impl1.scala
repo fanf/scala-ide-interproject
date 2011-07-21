@@ -4,6 +4,6 @@ import samples.module1A.Api1
 
 class Impl1 extends Api1 {
 
-  override def foo(s:String) = s.capitalize
+  override def foo(s:String, t:String) = s.capitalize + t
   
 }

@@ -8,7 +8,7 @@ object Main {
     
     val x = new Impl1()
     
-    println(x.foo("hello world"))
+    println(x.foo("hello", "world"))
     
   }
 
